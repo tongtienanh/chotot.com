@@ -1,0 +1,21 @@
+.container {
+  max-width: 100%;
+  padding: 0;
+  .wrapper-body {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    .side-wrapper{
+      width: 65%;
+    }
+  }
+}
+@media only screen and (max-width: 739px){
+  .container{
+    .wrapper-body{
+      .side-wrapper{
+        width: 100%;
+      }
+    }
+  }
+}

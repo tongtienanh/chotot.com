@@ -1,0 +1,47 @@
+.rewardHeader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #fff;
+  .right{
+    display: flex;
+    align-items: center;
+    img{
+      width: 64px;
+      height: 64px;
+      border: 2px solid rgb(229, 229, 229);
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .point{
+      padding-left: 20px;
+      span{
+        font-size: 24px;
+      }
+      p{
+        color: #589f39;
+      }
+      img{
+        width: 8px;
+        height: 12px;
+      }
+    }
+  }
+  button{
+    height: 35px;
+    /* width: 100px; */
+    color: white;
+    padding: 3px 15px 5px 15px;
+    border: 1px solid #fe9900;
+    cursor: pointer;
+    padding: 3px 15px 5px 15px;
+    background-color: #fe9900;
+    text-align: center;
+    transition: background-color 200ms ease-in-out;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}

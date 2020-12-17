@@ -1,0 +1,20 @@
+.tab{
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+  a{
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 3px solid rgb(255, 186, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    &:last-child{
+      border-bottom: 0;
+      font-weight: 500;
+      &:hover{
+        background-color: #F4F4F4;
+      }
+    }
+  }
+}

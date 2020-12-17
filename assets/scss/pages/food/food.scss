@@ -1,0 +1,24 @@
+@import "../../base/base";
+//Components
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/list";
+@import "../../components/gird";
+@import "../../components/pages";
+@import "../../components/classify_categories";
+@import "../../components/modal";
+@import "../../components/breadcrum";
+@import "../../components/categories_top";
+@import "../../components/fillter";
+@import "../../components/recommend_top";
+@import "../../components/container";
+@import "../../components/button_swiper";
+@import "../../components/description";
+@import "../../components/seo_key";
+@import "../../components/expand_btn";
+.recommend-list{
+  background: #F4F4F4;
+}
+.hidden-text{
+  display: none;
+}

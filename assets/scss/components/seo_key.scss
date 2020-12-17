@@ -1,0 +1,44 @@
+.seo-key {
+  strong {
+    display: block;
+    padding: 10px 0;
+  }
+  .seo-key-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    ul {
+      margin: 0 100px;
+      &:first-child {
+        margin: 0 100px 0 0;
+      }
+      li {
+        list-style: outside;
+        a {
+          font-size: 13px;
+          line-height: 25px;
+          color: #777;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+  }
+}
+@media only screen and (max-width: 739px) {
+  .seo-key {
+    white-space: nowrap;
+    padding: 0 15px;
+    .seo-key-item {
+      ul {
+        margin: 0 !important;
+        &:last-child {
+          display: none;
+        }
+      }
+    }
+  }
+
+}

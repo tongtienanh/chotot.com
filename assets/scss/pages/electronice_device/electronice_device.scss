@@ -1,0 +1,37 @@
+@import "../../base/base";
+//Components
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/list";
+@import "../../components/gird";
+@import "../../components/pages";
+@import "../../components/classify_categories";
+@import "../../components/modal";
+@import "../../components/breadcrum";
+@import "../../components/categories_top";
+@import "../../components/fillter";
+@import "../../components/container";
+@import "../../components/description";
+@import "../../components/seo_key";
+@import "../../components/button_swiper";
+@import "./include/shop_online";
+.block2{
+  max-height: 7em;
+}
+.hidden {
+  display: none !important;
+}
+.flex {
+  display: flex !important;
+}
+.icon-item {
+  img {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media only screen and (max-width: 739px) {
+  .fillter {
+    display: none;
+  }
+}

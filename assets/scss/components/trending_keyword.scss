@@ -1,0 +1,42 @@
+.trending-keyword{
+  display: flex;
+  align-items: center;
+  height: 44px;
+  margin: 10px 0;
+  white-space: nowrap;
+  position: relative;
+  li{
+    font-size: 13px;
+    color: #fe9900;
+    background-color: #ffffff;
+    padding: 6px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 3;
+    height: 100%;
+    margin-right: 8px;
+    cursor: pointer;
+    .bg-cyan{
+      color: #38699f;;
+    }
+    .bg-green{
+      color: #589f39;
+    }
+    .bg-perse{
+      color:  #0094a3;
+    }
+    .bg-red{
+      color: #d0021b;
+    }
+  }
+  .select-item{
+  }
+  &:hover .swiper-button-next{
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+@media only screen and (max-width: 739px){
+  .trending-keyword{
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../base/reset";
+@import "../../base/base";
+@import "../../components/header/header";
+//Components
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+@import "../../components/container";
+@import "../../components/head_title";
+@import "../../components/see_more_btn";
+@import "../../components/seo_key";
+@import "../../components/description";
+@import "../../components/expand_btn";
+//Include
+@import "include/banner";
+@import "include/sub_banner";
+@import "include/block1";
+@import "include/block2";
+@import "include/list";
+@import "include/pagination";
+.wrapper-body{
+  width: 960px;
+  //h4{
+  //  padding:12px;
+  //  text-align: center;
+  //  color: #9B9B9B;
+  //}
+}
+h1{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.67em 0px;
+}
+.description{
+  padding: 12px;
+  font-size: 12px;
+  b{
+    margin: 10px 0;
+  }
+}

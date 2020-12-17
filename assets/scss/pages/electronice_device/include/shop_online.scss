@@ -1,0 +1,32 @@
+.shop-online {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  color: #fe9900;
+  background: #ffffff;
+  margin: 8px 0;
+  .right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    i {
+      font-size: 20px;
+    }
+    h3 {
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    p {
+      font-size: 13px;
+      margin-right: 4px;
+    }
+  }
+}

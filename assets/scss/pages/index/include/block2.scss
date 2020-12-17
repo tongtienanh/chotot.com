@@ -1,0 +1,27 @@
+.block2{
+  background: #ffffff;
+  padding: 12px 12px 4px;
+  margin-top: 12px;
+  //h3{
+  //  font-size: 17px;
+  //  margin: 0px 0px 12px;
+  //  font-weight: bold;
+  //  font-stretch: normal;
+  //  font-style: normal;
+  //  line-height: 1.41;
+  //  letter-spacing: normal;
+  //  color: #222222;
+  //}
+  }
+@media only screen and (max-width: 739px) {
+  .block2{
+    width: 100%;
+    padding: 0;
+    .item-sp{
+      width: 100%;
+      .item1{
+        width: 182px;
+      }
+    }
+  }
+}

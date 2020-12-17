@@ -1,0 +1,15 @@
+@import "../../base/base";
+//Components
+@import "../../components/header/header";
+@import "../../components/footer/footer";
+//Include
+@import "include/head";
+@import "include/rewardHeader";
+@import "include/rewardBody";
+@import "include/tab";
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 0;
+}
